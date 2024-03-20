@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @NILAY1556
 - 👀 I’m interested in hot girls
-- 🌱 I’m currently learning c
+- 🌱 I’m currently learning how to print "hello world" ;
 - 💞️ standing alone 
 - 📫 nilaydhandhukiya06@gmail.com 
 
