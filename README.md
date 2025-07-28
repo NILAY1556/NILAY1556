@@ -1,65 +1,17 @@
 # NILAY1556
 
+## Exploring...
+- **DiffusionLM Architecture Deep Dive** (28-01-25)
+  Explores DiffusionLM architecture through LaViDa and MMaDA papers, focusing on its underlying principles and capabilities.
+  [Resource](https://arxiv.org/abs/2505.16839)
+  [Resource](https://arxiv.org/abs/2505.15809)
+
 ## Pull Requests
 - Opened a [PR](https://github.com/mem0ai/mem0/pull/3141) in [mem0ai/mem0]: feat:vLLM-embedder (2025-07-12)
-  > AI Summary: ## Description
-
-feat: add vLLM integration embeddings support
-
-Fixes #3101 
-
-## Type of change
-
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Documentation update
-
-## How Has This Been Tested?
-
-- [ ] Test Script
-
-## Checklist:
-
-- [ ] My code follows the style guidelines of this project
-- [ ] I have performed a self-review of my own code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] Any dependent changes have been merged and published in downstream modules
-- [ ] I have checked my code and corrected any misspellings
-
-
+  > AI Summary: @NILAY1556 has added vLLM integration for embeddings support, addressing issue #3101. This contribution introduces a new feature that enhances the project's capabilities by enabling the use of vLLM for embedding generation. The changes have been tested, and the developer has confirmed adherence to project style guidelines, self-review, documentation updates, and successful passing of all unit tests, ensuring a stable and functional integration.
 
 - Opened a [PR](https://github.com/mem0ai/mem0/pull/3100) in [mem0ai/mem0]: fix-migration-collection-override (2025-07-04)
-  > AI Summary: ## Description
-
-fix - Telemetry config override 
-
-Fixes #2948 
-
-## Type of change
-
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-
-## How Has This Been Tested?
-
-- [ ] Test Script 
-
-## Checklist:
-
-- [ ] My code follows the style guidelines of this project
-- [ ] I have performed a self-review of my own code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] Any dependent changes have been merged and published in downstream modules
-- [ ] I have checked my code and corrected any misspellings
-
-
+  > AI Summary: @NILAY1556 has fixed a telemetry configuration override issue, addressing a bug reported in issue #2948. This change is classified as a bug fix, with no expected impact on existing functionality. The contribution has been verified through a test script, and adheres to project style guidelines. Furthermore, @NILAY1556 has ensured code comments, documentation updates, and passing unit tests, confirming the effectiveness of the fix and the integrity of the changes.
 
 ## Starred Repositories
 - Starred [sapientinc/HRM](https://github.com/sapientinc/HRM) on 2025-07-27

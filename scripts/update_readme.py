@@ -41,6 +41,7 @@ class GitHubActivityFetcher:
         if self.gemini_api_key:
             genai.configure(api_key=self.gemini_api_key)
             self.model = genai.GenerativeModel('gemini-2.5-flash-lite')
+            logger.info("Gemini AI model configured successfully.")
         else:
             logger.warning("GEMINI_API_KEY not found. AI summaries will be disabled.")
             self.model = None
@@ -48,7 +49,8 @@ class GitHubActivityFetcher:
     def generate_ai_summary(self, content: str, context: str = "") -> str:
         """Generate AI summary using Gemini"""
         if not self.model:
-            return content
+            logger.info("Using fallback summary (no AI model available)")
+            return self._create_fallback_summary(content)
 
         try:
             prompt = f"""You are a GitHub activity summarizer. For the activity from @{self.username}:
@@ -65,11 +67,37 @@ class GitHubActivityFetcher:
             Context: {context}
             Content to summarize: {content}"""
 
+            logger.info(f"Generating AI summary for content length: {len(content)} chars")
             response = self.model.generate_content(prompt)
-            return response.text.strip()
+            ai_summary = response.text.strip()
+            logger.info(f"AI summary generated: {ai_summary[:100]}...")
+            return ai_summary
         except Exception as e:
             logger.error(f"Error generating AI summary: {e}")
-            return content
+            return self._create_fallback_summary(content)
+
+    def _create_fallback_summary(self, content: str) -> str:
+        """Create a basic summary when AI is not available"""
+        if not content:
+            return f"@{self.username} has made a contribution."
+
+        # Clean up the content - remove markdown, excessive whitespace, and common PR template text
+        clean_content = re.sub(r'#+\s*', '', content)  # Remove markdown headers
+        clean_content = re.sub(r'\[.\]\s*', '', clean_content)  # Remove checkboxes
+        clean_content = re.sub(r'##\s*(Description|Type of change|How Has This Been Tested|Checklist).*?(?=##|$)', '', clean_content, flags=re.DOTALL | re.IGNORECASE)
+        clean_content = re.sub(r'Fixes\s*#\d+', '', clean_content, flags=re.IGNORECASE)
+        clean_content = re.sub(r'\s+', ' ', clean_content).strip()
+
+        # Extract the first meaningful sentence or take first 100 characters
+        sentences = [s.strip() for s in clean_content.split('.') if s.strip() and len(s.strip()) > 10]
+        if sentences:
+            summary = sentences[0]
+            if len(summary) > 100:
+                summary = summary[:97] + "..."
+        else:
+            summary = clean_content[:97] + "..." if len(clean_content) > 100 else clean_content
+
+        return f"@{self.username} has {summary.lower()}" if summary else f"@{self.username} has made a contribution."
 
     def generate_learning_summary(self, content: str) -> Dict[str, str]:
         """Generate AI summary for learning content"""
