@@ -40,7 +40,7 @@ class GitHubActivityFetcher:
         # Configure Gemini AI
         if self.gemini_api_key:
             genai.configure(api_key=self.gemini_api_key)
-            self.model = genai.GenerativeModel('gemini-1.5-flash')
+            self.model = genai.GenerativeModel('gemini-2.0-flash')
         else:
             logger.warning("GEMINI_API_KEY not found. AI summaries will be disabled.")
             self.model = None
