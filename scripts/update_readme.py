@@ -223,7 +223,7 @@ class GitHubActivityFetcher:
 
     def generate_markdown(self, activities: Dict[str, List[Dict[str, Any]]], learnings: List[Dict[str, Any]]) -> str:
         """Generate markdown content for README"""
-        markdown = f"# GitHub Activity for {self.username}\n\n"
+        markdown = f"# {self.username}\n\n"
 
         # Exploring Section (at the top) - only show if has content
         if learnings:
