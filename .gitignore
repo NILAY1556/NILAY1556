@@ -51,5 +51,5 @@ Thumbs.db
 # Logs
 *.log
 
-learning_tracker.txt
+# learning_tracker.txt
 # requirements.txt
