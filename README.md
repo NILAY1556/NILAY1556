@@ -2,19 +2,17 @@
 
 ## Exploring...
 
-- **DiffusionLM Architecture Overview** (28-01-25)
-  Explored DiffusionLM, a DeepMind architecture popularized by LaViDa and MMaDA papers, focusing on its architecture.
-  [Resource](https://arxiv.org/abs/2505.16839)
-  [Resource](https://arxiv.org/abs/2505.15809)
+- **Diffusion Models & Architectures** (28-01-25)
+  Understanding DiffusionLM, including its hyped adoption and foundational papers [LaViDa](https://arxiv.org/abs/2505.16839) and [MMaDA](https://arxiv.org/abs/2505.15809) for architecture.
 
 ## Pull Requests
 
 - Opened a [PR](https://github.com/mem0ai/mem0/pull/3141) in [mem0ai/mem0]: feat:vLLM-embedder (2025-07-12)
 
-  > AI Summary: @NILAY1556 has added vLLM integration for embeddings support, addressing issue #3101. The contribution introduces a new feature to the project, confirmed through test scripts. A self-review was performed, and code was commented for clarity. Documentation has been updated to reflect the changes. The modifications generate no new warnings, and tests have been added to ensure the effectiveness of the new feature. All unit tests pass locally.
+  > AI Summary: @NILAY1556 has added vLLM integration for embeddings support, directly addressing issue #3101. This pull request introduces a new feature that enhances the project's capabilities by incorporating vLLM for more efficient embedding generation. The changes have been tested via a test script and adhere to project style guidelines, including self-review, code commenting, documentation updates, and ensuring no new warnings or failing tests. This contribution aims to improve the project's performance and functionality.
 
 - Opened a [PR](https://github.com/mem0ai/mem0/pull/3100) in [mem0ai/mem0]: fix-migration-collection-override (2025-07-04)
-  > AI Summary: @NILAY1556 has addressed issue #2948 in the mem0ai/mem0 repository with a bug fix related to telemetry configuration overrides. The changes have been tested using a test script, adhering to the project's style guidelines. A self-review of the code has been conducted, and necessary commenting and documentation updates have been made. Furthermore, the changes generate no new warnings, and existing unit tests pass locally, ensuring the fix's effectiveness. Code has also been checked for any misspellings.
+  > AI Summary: @NILAY1556 has addressed an issue with telemetry configuration overrides, specifically fixing issue #2948. This contribution focuses on a bug fix, ensuring the project adheres to its style guidelines. The developer has diligently followed the project's checklist, including self-review, code commenting, documentation updates, and adding new tests. These actions guarantee that the changes generate no new warnings and that existing unit tests continue to pass successfully with the implemented fix.
 
 ## Starred Repositories
 
