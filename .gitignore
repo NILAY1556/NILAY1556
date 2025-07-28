@@ -52,4 +52,4 @@ Thumbs.db
 *.log
 
 learning_tracker.txt
-requirements.txt
+# requirements.txt
