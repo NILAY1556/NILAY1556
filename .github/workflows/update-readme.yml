@@ -1,0 +1,50 @@
+name: Update README with AI-Powered GitHub Activity
+
+on:
+  schedule:
+    # Run daily at 4 AM UTC
+    - cron: "0 4 * * *"
+  workflow_dispatch: # Allow manual trigger
+  push:
+    branches: [main]
+    paths:
+      [
+        ".github/workflows/update-readme.yml",
+        "scripts/update_readme.py",
+        "learning_tracker.txt",
+      ]
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Update README with AI-powered GitHub activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/update_readme.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update README with GitHub activity" || exit 0
+          git push
