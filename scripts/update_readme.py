@@ -153,18 +153,24 @@ class GitHubActivityFetcher:
         """Parse the learning tracker file with new format"""
         try:
             if not os.path.exists('learning_tracker.txt'):
+                logger.warning("learning_tracker.txt not found")
                 return []
 
             with open('learning_tracker.txt', 'r', encoding='utf-8') as f:
                 content = f.read()
 
+            logger.info(f"Learning tracker content length: {len(content)} chars")
+
             # Find all learning entries with date format <DD-MM-YY>
             pattern = r'<(\d{2}-\d{2}-\d{2})>\s*(.*?)\s*</\d{2}-\d{2}-\d{2}>'
             matches = re.findall(pattern, content, re.DOTALL)
 
+            logger.info(f"Found {len(matches)} learning entries")
+
             learnings = []
             for date_str, learning_content in matches[:self.max_learning_entries]:  # Get latest N entries
                 if learning_content.strip():
+                    logger.info(f"Processing learning entry for {date_str}")
                     # Generate AI summary for the learning
                     learning_data = self.generate_learning_summary(learning_content.strip())
 
@@ -176,6 +182,7 @@ class GitHubActivityFetcher:
                         'raw_content': learning_content.strip()
                     })
 
+            logger.info(f"Parsed {len(learnings)} learning entries successfully")
             return learnings
         except Exception as e:
             logger.error(f"Error parsing learning tracker: {e}")
@@ -253,10 +260,14 @@ class GitHubActivityFetcher:
         """Generate markdown content for README"""
         markdown = f"# {self.username}\n\n"
 
+        logger.info(f"Generating markdown with {len(learnings)} learning entries")
+
         # Exploring Section (at the top) - only show if has content
         if learnings:
+            logger.info("Adding Exploring section to markdown")
             markdown += "## Exploring...\n"
             for learning in learnings:
+                logger.info(f"Adding learning: {learning['title']}")
                 markdown += f"- **{learning['title']}** ({learning['date']})\n"
                 markdown += f"  {learning['summary']}\n"
 
@@ -276,6 +287,8 @@ class GitHubActivityFetcher:
 
                         markdown += f"  [{link_text}]({url})\n"
                 markdown += "\n"
+        else:
+            logger.info("No learning entries found, skipping Exploring section")
 
 
 
