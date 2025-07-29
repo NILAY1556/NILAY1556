@@ -2,9 +2,8 @@ name: Update README with AI-Powered GitHub Activity
 
 on:
   schedule:
-    # Run daily at 4 AM UTC
     - cron: "0 4 * * *"
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch:
   push:
     branches: [main]
     paths:

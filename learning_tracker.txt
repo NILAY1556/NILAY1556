@@ -1,6 +1,10 @@
 # Daily Learning Tracker
 # Format: <DD-MM-YY> content </DD-MM-YY>
 
-<28-01-25>
-i learned about defuisonLM , its not new reserch but got hyped up due to google's deepmind , there is two papers LaViDa( https://arxiv.org/abs/2505.16839 ) and MMaDA( https://arxiv.org/abs/2505.15809 ) which describs great whole architachture 
-</28-01-25>
+<29-07-25>
+i review opal[https://opal.withgoogle.com/] google deepmind's new project , also review some good github repos like graphrag-toolkit[https://github.com/awslabs/graphrag-toolkit] , awesome-llm-apps[]
+</29-07-25>
+
+<28-07-25>
+i learned about defuisonLM , its not new reserch but got hyped up due to google's deepmind , there is two papers LaViDa[https://arxiv.org/abs/2505.16839] and MMaDA[https://arxiv.org/abs/2505.15809] which describs great whole architachture 
+</28-07-25>
