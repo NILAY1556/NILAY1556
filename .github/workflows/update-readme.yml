@@ -11,7 +11,7 @@ on:
       [
         ".github/workflows/update-readme.yml",
         "scripts/update_readme.py",
-        "learning_tracker.txt",
+        "./learning_tracker.txt",
       ]
 
 jobs:
