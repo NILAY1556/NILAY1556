@@ -44,7 +44,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: ${{ github.repository_owner }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY || '' }}
+          GOOGLE_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/update_readme.py
 
       - name: Commit and push changes

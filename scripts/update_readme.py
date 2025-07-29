@@ -102,7 +102,11 @@ class GitHubActivityFetcher:
     def generate_learning_summary(self, content: str) -> Dict[str, str]:
         """Generate AI summary for learning content"""
         if not self.model:
-            return {"title": "Learning Update", "summary": content[:100] + "..."}
+            return {
+                "title": "Learning Update", 
+                "summary": content[:100] + "...",
+                "urls": re.findall(r'https?://[^\s]+', content)
+            }
 
         try:
             # Extract URLs from content
@@ -360,3 +364,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
