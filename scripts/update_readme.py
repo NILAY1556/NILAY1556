@@ -101,18 +101,18 @@ class GitHubActivityFetcher:
 
     def generate_learning_summary(self, content: str) -> Dict[str, str]:
         """Generate AI summary for learning content"""
+        # Process inline hyperlinks first (format: text[url])
+        processed_content = self._process_inline_hyperlinks(content)
+
         if not self.model:
             return {
-                "title": "Learning Update", 
-                "summary": content[:100] + "...",
-                "urls": re.findall(r'https?://[^\s]+', content)
+                "title": "Learning Update",
+                "summary": processed_content[:100] + "...",
+                "processed_content": processed_content
             }
 
         try:
-            # Extract URLs from content
-            urls = re.findall(r'https?://[^\s]+', content)
-
-            # Create prompt for learning summary
+            # Create prompt for learning summary using processed content
             prompt = f"""Analyze this learning content and provide:
             1. A concise title (3-5 words) that captures the main topic
             2. A clean, professional 1-2 line summary (max 150 characters)
@@ -138,20 +138,65 @@ class GitHubActivityFetcher:
             summary_match = re.search(r'SUMMARY:\s*(.+)', result)
 
             title = title_match.group(1).strip() if title_match else "Learning Update"
-            summary = summary_match.group(1).strip() if summary_match else content[:100] + "..."
+            summary = summary_match.group(1).strip() if summary_match else processed_content[:100] + "..."
 
             return {
                 "title": title,
                 "summary": summary,
-                "urls": urls
+                "processed_content": processed_content
             }
         except Exception as e:
             logger.error(f"Error generating learning summary: {e}")
             return {
                 "title": "Learning Update",
-                "summary": content[:100] + "...",
-                "urls": re.findall(r'https?://[^\s]+', content)
+                "summary": processed_content[:100] + "...",
+                "processed_content": processed_content
             }
+
+    def _process_inline_hyperlinks(self, content: str) -> str:
+        """Convert inline hyperlinks from format 'text[url]' to markdown '[text](url)'"""
+        # Pattern to match text[url] format
+        # This matches: any_text_without_spaces[http://url] or any_text_without_spaces[https://url]
+        # Updated pattern to be more flexible with text before the bracket
+        pattern = r'([a-zA-Z0-9_\-\.]+)\[(https?://[^\]]*)\]'
+
+        def replace_link(match):
+            text = match.group(1)
+            url = match.group(2)
+            # Only create link if URL is not empty
+            if url.strip():
+                return f'[{text}]({url})'
+            else:
+                # If URL is empty, just return the text
+                return text
+
+        # Replace all matches with markdown format
+        processed = re.sub(pattern, replace_link, content)
+
+        # Also handle any remaining standalone URLs that weren't in the text[url] format
+        # Convert standalone URLs to generic links, but avoid URLs that are already in markdown format
+        standalone_url_pattern = r'(?<!\]\()(https?://[^\s\[\]]+)(?!\))'
+
+        def replace_standalone_url(match):
+            url = match.group(1)
+            # Try to extract a meaningful name from URL
+            if 'github.com' in url:
+                return f'[GitHub]({url})'
+            elif 'youtube.com' in url or 'youtu.be' in url:
+                return f'[Video]({url})'
+            elif 'docs.' in url or 'documentation' in url:
+                return f'[Documentation]({url})'
+            elif 'arxiv.org' in url:
+                return f'[Paper]({url})'
+            elif 'tutorial' in url:
+                return f'[Tutorial]({url})'
+            else:
+                return f'[Resource]({url})'
+
+        # Only process URLs that are not already part of markdown links
+        processed = re.sub(standalone_url_pattern, replace_standalone_url, processed)
+
+        return processed
 
     def parse_learning_tracker(self) -> List[Dict[str, Any]]:
         """Parse the learning tracker file with new format"""
@@ -182,7 +227,7 @@ class GitHubActivityFetcher:
                         'date': date_str,
                         'title': learning_data['title'],
                         'summary': learning_data['summary'],
-                        'urls': learning_data['urls'],
+                        'processed_content': learning_data['processed_content'],
                         'raw_content': learning_content.strip()
                     })
 
@@ -275,21 +320,14 @@ class GitHubActivityFetcher:
                 markdown += f"- **{learning['title']}** ({learning['date']})\n"
                 markdown += f"  {learning['summary']}\n"
 
-                # Add hyperlinks if any URLs found
-                if learning['urls']:
-                    for url in learning['urls']:
-                        # Try to extract a meaningful name from URL or use generic text
-                        link_text = "Resource"
-                        if 'github.com' in url:
-                            link_text = "GitHub"
-                        elif 'youtube.com' in url or 'youtu.be' in url:
-                            link_text = "Video"
-                        elif 'docs.' in url or 'documentation' in url:
-                            link_text = "Documentation"
-                        elif 'tutorial' in url:
-                            link_text = "Tutorial"
+                # Add hyperlinks from processed content if they exist
+                if learning['processed_content'] and '[' in learning['processed_content'] and '](' in learning['processed_content']:
+                    # Extract just the hyperlinks from processed content for display
+                    hyperlinks = re.findall(r'\[([^\]]+)\]\(([^)]+)\)', learning['processed_content'])
+                    if hyperlinks:
+                        for link_text, url in hyperlinks:
+                            markdown += f"  [{link_text}]({url})\n"
 
-                        markdown += f"  [{link_text}]({url})\n"
                 markdown += "\n"
         else:
             logger.info("No learning entries found, skipping Exploring section")

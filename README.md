@@ -1,22 +1,22 @@
 # NILAY1556
 
 ## Exploring...
-- **Exploring LLM Tools and Projects** (29-07-25)
-  Reviewing Google DeepMind's Opal and key GitHub repositories like Graphrag Toolkit for LLM applications.
-  [Resource](https://opal.withgoogle.com/])
-  [GitHub](https://github.com/awslabs/graphrag-toolkit])
+- **AI Project Exploration** (29-07-25)
+  Reviewing Google DeepMind's Opal and key GitHub repositories for LLM applications and graph-based AI.
+  [opal](https://opal.withgoogle.com/)
+  [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 - **DiffusionLM Architecture Explained** (28-07-25)
-  Explores DiffusionLM's architecture with insights from LaViDa and MMaDA papers, focusing on its underlying technology.
-  [Resource](https://arxiv.org/abs/2505.16839])
-  [Resource](https://arxiv.org/abs/2505.15809])
+  Explores the DiffusionLM architecture and its foundational papers, LaViDa and MMaDA, detailing its significant advancements.
+  [LaViDa](https://arxiv.org/abs/2505.16839)
+  [MMaDA](https://arxiv.org/abs/2505.15809)
 
 ## Pull Requests
 - Opened a [PR](https://github.com/mem0ai/mem0/pull/3141) in [mem0ai/mem0]: feat:vLLM-embedder (2025-07-12)
-  > AI Summary: @NILAY1556 has added support for vLLM integration embeddings, addressing issue #3101. This contribution introduces new functionality without breaking existing code. The changes have been tested with a test script, and the developer has ensured adherence to project style guidelines, self-reviewed the code, and added comments. Crucially, new unit tests have been incorporated to validate the feature's effectiveness, and existing tests pass locally. Documentation has also been updated to reflect these enhancements.
+  > AI Summary: @NILAY1556 has implemented a new feature to integrate vLLM for embedding support, directly addressing issue #3101. This significant contribution enhances the project's capabilities by enabling the use of vLLM for generating embeddings. The changes have undergone thorough testing, and adherence to project guidelines is confirmed through a comprehensive checklist, ensuring code quality and documentation updates.
 
 - Opened a [PR](https://github.com/mem0ai/mem0/pull/3100) in [mem0ai/mem0]: fix-migration-collection-override (2025-07-04)
-  > AI Summary: @NILAY1556 has addressed an issue concerning telemetry configuration override, specifically fixing issue #2948. This contribution is categorized as a bug fix. The changes were verified through a test script. The developer confirms adherence to project style guidelines, self-review, code commenting, updated documentation, absence of new warnings, and successful passing of local unit tests. The commit ensures effective implementation of the telemetry configuration fix.
+  > AI Summary: @NILAY1556 has submitted a pull request to address a bug related to telemetry configuration overrides. This change aims to fix issue #2948 by modifying how telemetry configurations are handled. The pull request confirms adherence to project style guidelines, includes self-review, code commenting, documentation updates, and verifies that the changes introduce no new warnings. Importantly, new tests have been added to validate the fix, ensuring that all unit tests pass locally with these modifications.
 
 ## Starred Repositories
 - Starred [sapientinc/HRM](https://github.com/sapientinc/HRM) on 2025-07-27
