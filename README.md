@@ -1,17 +1,17 @@
 # NILAY1556
 
 ## Exploring...
-- **Learning Update** (28-01-25)
-  i learned about defuisonLM , its not new reserch but got hyped up due to google's deepmind , there i...
+- **DiffusionLM Architecture Explained** (28-01-25)
+  Explores DiffusionLM, a large language model, detailing its architecture through the LaViDa and MMaDA research papers.
   [Resource](https://arxiv.org/abs/2505.16839)
   [Resource](https://arxiv.org/abs/2505.15809)
 
 ## Pull Requests
 - Opened a [PR](https://github.com/mem0ai/mem0/pull/3141) in [mem0ai/mem0]: feat:vLLM-embedder (2025-07-12)
-  > AI Summary: @NILAY1556 has description feat: add vllm integration embeddings support fixes 3101 type of change - new feature...
+  > AI Summary: @NILAY1556 has added vLLM integration for embeddings support, addressing a specific GitHub issue. This pull request introduces a new feature, focusing on technical advancements rather than documentation updates. The changes have been thoroughly tested, ensuring adherence to project style guidelines, self-review, and effective test coverage. Code comments and documentation updates were made, and all unit tests pass, confirming the successful integration of vLLM for enhanced embedding capabilities.
 
 - Opened a [PR](https://github.com/mem0ai/mem0/pull/3100) in [mem0ai/mem0]: fix-migration-collection-override (2025-07-04)
-  > AI Summary: @NILAY1556 has description fix - telemetry config override fixes 2948 type of change - bug fix (non-breaking cha...
+  > AI Summary: @NILAY1556 has addressed an issue related to telemetry configuration overrides. This change specifically targets and resolves a bug identified in issue #2948, ensuring proper functionality of the telemetry system. The contribution follows project style guidelines, includes self-review, code commenting, and documentation updates. Testing has been conducted via a test script, and all new and existing unit tests pass locally, confirming the fix is effective and does not introduce new warnings.
 
 ## Starred Repositories
 - Starred [sapientinc/HRM](https://github.com/sapientinc/HRM) on 2025-07-27
