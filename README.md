@@ -1,5 +1,11 @@
 # NILAY1556
 
+## Exploring...
+- **Learning Update** (28-01-25)
+  i learned about defuisonLM , its not new reserch but got hyped up due to google's deepmind , there i...
+  [Resource](https://arxiv.org/abs/2505.16839)
+  [Resource](https://arxiv.org/abs/2505.15809)
+
 ## Pull Requests
 - Opened a [PR](https://github.com/mem0ai/mem0/pull/3141) in [mem0ai/mem0]: feat:vLLM-embedder (2025-07-12)
   > AI Summary: @NILAY1556 has description feat: add vllm integration embeddings support fixes 3101 type of change - new feature...
