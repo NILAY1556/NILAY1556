@@ -4,14 +4,14 @@ on:
   schedule:
     - cron: "0 4 * * *"
   workflow_dispatch:
-  # push:
-  #   branches: [main]
-  #   paths:
-  #     [
-  #       ".github/workflows/update-readme.yml",
-  #       "scripts/update_readme.py",
-  #       "./learning_tracker.txt",
-  #     ]
+  push:
+    branches: [main]
+    paths:
+      [
+        ".github/workflows/update-readme.yml",
+        "scripts/update_readme.py",
+        "./learning_tracker.txt",
+      ]
 
 jobs:
   update-readme:
