@@ -1,6 +1,13 @@
 # Daily Learning Tracker
 # Format: <DD-MM-YY> content </DD-MM-YY>
 
+<30-07-25>
+Transformers and it's limitations : 
+    - qudratic memory complexity -> can use sparce attention or approximate low-rank approximation , but the at the end of the day on the Flash attention 
+    - dimishing return large context window (too much attention) -> for this biasing harder on recent data and update the weights (MEGA) and also can do pattern recognition for selective attention (LaMDA , CEMA) which is meta's approch
+    - resoning task -> it's good at doing stastical co-relation between tokens but when it comes to resoning or symbolic thinking which leads us to CoT
+</30-07-25>
+
 <29-07-25>
 i review opal[https://opal.withgoogle.com/] google deepmind's new project , also review some good github repos like graphrag-toolkit[https://github.com/awslabs/graphrag-toolkit] , awesome-llm-apps[]
 </29-07-25>
