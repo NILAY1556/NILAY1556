@@ -115,7 +115,7 @@ class GitHubActivityFetcher:
             # Create prompt for learning summary using processed content
             prompt = f"""Analyze this learning content and provide:
             1. A concise title (3-5 words) that captures the main topic
-            2. A clean, professional 1-2 line summary (max 150 characters)
+            2. A clean, professional 1-2 line summary (max 150 characters) but if there is bullet points then include them in the summary and ignore the max character limit and include the topics as descriptive as possible
 
             Guidelines:
             - Focus on the key technology, concept, or skill learned

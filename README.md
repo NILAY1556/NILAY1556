@@ -2,24 +2,24 @@
 
 ## Exploring...
 - **Transformer Limitations and Solutions** (30-07-25)
-  Discusses Transformer limitations like quadratic memory and diminishing returns, with solutions including sparse attention and selective attention mechanisms.
+  Explores Transformer limitations: quadratic memory complexity addressed by sparse/low-rank attention (FlashAttention), diminishing returns with large context windows mitigated by recency bias (MEGA) and selective attention (LaMDA, CEMA), and reasoning task challenges tackled by techniques like Chain-of-Thought (CoT).
 
-- **Exploring LLM Tools & Projects** (29-07-25)
-  Reviewing Google DeepMind's Opal and prominent GitHub repositories for LLM applications and graph-based tooling.
+- **Exploring AI Projects & Tools** (29-07-25)
+  Reviewed Google DeepMind's Opal project and beneficial GitHub repositories such as Graphrag Toolkit and Awesome LLM Apps to understand current AI developments.
   [opal](https://opal.withgoogle.com/)
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 - **DiffusionLM Architecture Explained** (28-07-25)
-  Explores DiffusionLM architecture through LaViDa and MMaDA papers, detailing its underlying principles and recent advancements.
+  Explores the DiffusionLM architecture, specifically detailing the LaViDa and MMaDA papers, which describe its comprehensive design and gained significant attention due to Google DeepMind's involvement.
   [LaViDa](https://arxiv.org/abs/2505.16839)
   [MMaDA](https://arxiv.org/abs/2505.15809)
 
 ## Pull Requests
 - Opened a [PR](https://github.com/mem0ai/mem0/pull/3141) in [mem0ai/mem0]: feat:vLLM-embedder (2025-07-12)
-  > AI Summary: @NILAY1556 has added vLLM integration for embeddings, addressing issue #3101. This pull request introduces a new feature by extending the project's capabilities to support embeddings through vLLM. The changes have been tested via a test script and adhere to the project's coding style guidelines.  @NILAY1556 has also ensured that documentation has been updated accordingly and that all tests, both new and existing, pass locally. The contribution focuses on enhancing the project's technical functionality.
+  > AI Summary: @NILAY1556 has added support for vLLM integration in embeddings, addressing issue #3101. This new feature introduces enhanced embedding capabilities. The contribution includes a new feature that does not break existing functionality. The changes have been tested using a test script, and the developer has followed the project's style guidelines, performed a self-review, commented the code, updated documentation, ensured no new warnings, added new tests, and verified that all unit tests pass.
 
 - Opened a [PR](https://github.com/mem0ai/mem0/pull/3100) in [mem0ai/mem0]: fix-migration-collection-override (2025-07-04)
-  > AI Summary: @NILAY1556 has submitted a pull request to mem0ai/mem0 that addresses an issue with telemetry configuration overrides, specifically fixing issue #2948. The change categorizes as a bug fix, implying it resolves an existing problem without breaking current functionality. This contribution demonstrates a commitment to improving the project's stability and configuration management through diligent testing and adherence to project guidelines.
+  > AI Summary: @NILAY1556 has fixed an issue related to telemetry configuration overriding. This change addresses a bug that affected how telemetry settings were applied. The contributor has followed project style guidelines, performed self-reviews, and ensured code comments where necessary. They have also updated relevant documentation and verified that their changes introduce no new warnings. Additionally, new tests were added to confirm the effectiveness of the fix, and existing unit tests pass with the modifications.
 
 ## Starred Repositories
 - Starred [sapientinc/HRM](https://github.com/sapientinc/HRM) on 2025-07-27
