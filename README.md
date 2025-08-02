@@ -1,25 +1,25 @@
 # NILAY1556
 
 ## Exploring...
-- **Transformer Limitations and Solutions** (30-07-25)
-  Analyzes Transformer limitations including quadratic memory complexity, diminishing returns with large context, and challenges in reasoning. Discusses solutions like sparse/approximate attention, context biasing, selective attention, and Chain-of-Thought (CoT) for enhanced performance.
+- **Transformer Limitations & Solutions** (30-07-25)
+  Analysis of Transformer limitations including quadratic memory complexity (addressed by sparse/low-rank attention, FlashAttention) and diminishing returns with large context windows. Solutions involve biasing recent data (MEGA) or selective attention (LaMDA, CEMA). Reasoning tasks highlight statistical correlation over symbolic thinking, leading to techniques like Chain-of-Thought (CoT).
 
-- **Explore LLM Projects** (29-07-25)
-  Reviewed Google DeepMind's Opal project and popular GitHub repositories such as Graphrag Toolkit and Awesome-LLM-Apps, gaining insights into LLM applications and development.
+- **Exploring LLM Projects** (29-07-25)
+  Reviewed Google DeepMind's Opal project and relevant GitHub repositories, including graphrag-toolkit and awesome-llm-apps, to understand LLM applications.
   [opal](https://opal.withgoogle.com/)
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
-- **DiffusionLM Architecture Overview** (28-07-25)
-  Explored DiffusionLM, a concept that gained traction due to Google DeepMind. The learning covered two key papers: LaViDa and MMaDA, detailing their architectures.
+- **DiffusionLM Architecture Insights** (28-07-25)
+  Explores DiffusionLM, a model gaining traction due to Google DeepMind, with a focus on its architecture as detailed in the LaViDa and MMaDA research papers.
   [LaViDa](https://arxiv.org/abs/2505.16839)
   [MMaDA](https://arxiv.org/abs/2505.15809)
 
 ## Pull Requests
 - Opened a [PR](https://github.com/mem0ai/mem0/pull/3141) in [mem0ai/mem0]: feat:vLLM-embedder (2025-07-12)
-  > AI Summary: @NILAY1556 has integrated vLLM embeddings support, addressing issue #3101. This pull request introduces a new feature that enhances the project's capabilities by enabling vLLM for embedding generation. The changes have undergone testing via script and adhere to project style guidelines, including self-review, code commenting, documentation updates, and successful execution of all unit tests, ensuring a robust and well-documented contribution.
+  > AI Summary: @NILAY1556 has introduced vLLM integration for embeddings support, addressing issue #3101. This contribution adds new functionality as a non-breaking change and includes corresponding documentation updates. The changes have been tested via a test script, and the submission adheres to project style guidelines, includes self-review, and has been commented. New unit tests have been added, and existing tests pass locally, confirming the effectiveness of the feature.
 
 - Opened a [PR](https://github.com/mem0ai/mem0/pull/3100) in [mem0ai/mem0]: fix-migration-collection-override (2025-07-04)
-  > AI Summary: @NILAY1556 has submitted a pull request to fix telemetry configuration overrides in the mem0 project. This addresses issue #2948, resolving a bug without introducing breaking changes. The contributor confirms that their code adheres to project style guidelines, has undergone self-review, includes appropriate comments, and has been tested with a test script. They have also ensured that documentation is updated, no new warnings are generated, and relevant tests pass.
+  > AI Summary: @NILAY1556 has submitted a pull request to address an issue with telemetry configuration overrides, specifically resolving #2948. This change is categorized as a bug fix and involves modifications to the project's telemetry settings. The developer confirms that testing has been performed using a test script and adheres to project style guidelines. Key contributions include code self-review, documentation updates, ensuring no new warnings are generated, and adding tests to validate the fix.
 
 ## Starred Repositories
 - Starred [sapientinc/HRM](https://github.com/sapientinc/HRM) on 2025-07-27
