@@ -1,25 +1,25 @@
 # NILAY1556
 
 ## Exploring...
-- **Transformer Limitations & Solutions** (30-07-25)
-  Analysis of Transformer limitations including quadratic memory complexity (addressed by sparse/low-rank attention, FlashAttention) and diminishing returns with large context windows. Solutions involve biasing recent data (MEGA) or selective attention (LaMDA, CEMA). Reasoning tasks highlight statistical correlation over symbolic thinking, leading to techniques like Chain-of-Thought (CoT).
+- **Transformer Limitations and Solutions** (30-07-25)
+  Analyzes Transformer limitations including quadratic memory complexity, diminishing returns with large context, and reasoning task challenges. Discusses solutions like sparse attention, low-rank approximation, FlashAttention, biasing towards recent data (MEGA), selective attention (LaMDA, CEMA), and Chain-of-Thought for improved reasoning.
 
-- **Exploring LLM Projects** (29-07-25)
-  Reviewed Google DeepMind's Opal project and relevant GitHub repositories, including graphrag-toolkit and awesome-llm-apps, to understand LLM applications.
+- **Deepmind, LLM, GraphRAG Review** (29-07-25)
+  Explores Google DeepMind's Opal project and reviews significant GitHub repositories including GraphRAG Toolkit and Awesome LLM Apps, highlighting key advancements in LLM applications and graph-based retrieval.
   [opal](https://opal.withgoogle.com/)
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
-- **DiffusionLM Architecture Insights** (28-07-25)
-  Explores DiffusionLM, a model gaining traction due to Google DeepMind, with a focus on its architecture as detailed in the LaViDa and MMaDA research papers.
+- **DiffusionLM Architecture Explained** (28-07-25)
+  Explores the DiffusionLM architecture, detailing its core components and highlighting two key papers, LaViDa and MMaDA, that describe its comprehensive design.
   [LaViDa](https://arxiv.org/abs/2505.16839)
   [MMaDA](https://arxiv.org/abs/2505.15809)
 
 ## Pull Requests
 - Opened a [PR](https://github.com/mem0ai/mem0/pull/3141) in [mem0ai/mem0]: feat:vLLM-embedder (2025-07-12)
-  > AI Summary: @NILAY1556 has introduced vLLM integration for embeddings support, addressing issue #3101. This contribution adds new functionality as a non-breaking change and includes corresponding documentation updates. The changes have been tested via a test script, and the submission adheres to project style guidelines, includes self-review, and has been commented. New unit tests have been added, and existing tests pass locally, confirming the effectiveness of the feature.
+  > AI Summary: @NILAY1556 has implemented a new feature to integrate vLLM for embeddings support, addressing issue #3101. This involves adding new functionality to the project. The changes have been tested via a test script. @NILAY1556 has ensured the code adheres to project style guidelines, conducted a self-review, commented complex areas, updated documentation, verified no new warnings are generated, and added tests to confirm the effectiveness of the new feature, ensuring all unit tests pass.
 
 - Opened a [PR](https://github.com/mem0ai/mem0/pull/3100) in [mem0ai/mem0]: fix-migration-collection-override (2025-07-04)
-  > AI Summary: @NILAY1556 has submitted a pull request to address an issue with telemetry configuration overrides, specifically resolving #2948. This change is categorized as a bug fix and involves modifications to the project's telemetry settings. The developer confirms that testing has been performed using a test script and adheres to project style guidelines. Key contributions include code self-review, documentation updates, ensuring no new warnings are generated, and adding tests to validate the fix.
+  > AI Summary: @NILAY1556 has submitted a pull request to address an issue with telemetry configuration overrides. This change aims to fix a bug in the mem0 repository, specifically referencing issue #2948. The contribution focuses on a bug fix and has undergone testing through a test script. @NILAY1556 has confirmed adherence to project style guidelines, conducted self-review, commented code, updated documentation, ensured no new warnings are generated, and added effective tests, all of which pass locally.
 
 ## Starred Repositories
 - Starred [sapientinc/HRM](https://github.com/sapientinc/HRM) on 2025-07-27
@@ -29,6 +29,4 @@
 - Forked [sapientinc/HRM](https://github.com/NILAY1556/HRM) on 2025-07-27
 - Forked [mem0ai/mem0-mcp](https://github.com/NILAY1556/mem0-mcp) on 2025-07-15
 - Forked [ShawhinT/yt-mcp](https://github.com/NILAY1556/yt-mcp) on 2025-07-06
-- Forked [RedPlanetHQ/core](https://github.com/NILAY1556/core) on 2025-07-04
-- Forked [zserge/tinygames](https://github.com/NILAY1556/tinygames-for-somepeople) on 2025-07-03
 
