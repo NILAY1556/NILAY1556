@@ -1,22 +1,18 @@
 # NILAY1556
 
 ## Exploring...
-- **Transformer Limitations and Solutions** (30-07-25)
-  Explores transformer limitations including quadratic memory complexity, addressed by sparse/approximate attention and FlashAttention. Discusses diminishing returns with large contexts via recency biasing (MEGA) and selective attention (LaMDA, CEMA). Highlights transformer's statistical correlation ability for reasoning tasks and the need for techniques like Chain-of-Thought (CoT).
+- **Transformer Limitations & Solutions** (30-07-25)
+  Analyzes Transformer limitations: quadratic memory complexity solvable by sparse attention or FlashAttention; diminishing returns with large contexts addressed by biasing recent data (MEGA) or selective attention (LaMDA, CEMA); and reasoning task deficits overcome by techniques like Chain-of-Thought (CoT).
 
-- **Exploring AI Project Opal** (29-07-25)
-  Reviewed Google DeepMind's Opal project and relevant GitHub repositories including graphrag-toolkit and awesome-llm-apps, focusing on AI and LLM applications.
+- **Exploring AI & LLM Projects** (29-07-25)
+  Reviewed Google DeepMind's Opal project and key GitHub repositories like graphrag-toolkit and awesome-llm-apps for LLM applications.
   [opal](https://opal.withgoogle.com/)
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 - **DiffusionLM Architecture Explained** (28-07-25)
-  Explores DiffusionLM, a popular architecture, detailing its components through two key research papers: LaViDa and MMaDA.
+  Explores DiffusionLM architecture, detailing its components and concepts through two key research papers: LaViDa and MMaDA, which describe the overall system.
   [LaViDa](https://arxiv.org/abs/2505.16839)
   [MMaDA](https://arxiv.org/abs/2505.15809)
-
-## Pull Requests
-- Opened a [PR](https://github.com/mem0ai/mem0/pull/3141) in [mem0ai/mem0]: feat:vLLM-embedder (2025-07-12)
-  > AI Summary: @NILAY1556 has introduced vLLM integration for embeddings, addressing an existing issue. This pull request represents a new feature addition, enhancing the project's capabilities without breaking existing functionality. The changes have been thoroughly tested via a test script and adhere to the project's coding style guidelines. Documentation updates have been made accordingly, ensuring no new warnings are generated and all tests, both new and existing, pass successfully.
 
 ## Starred Repositories
 - Starred [osmandkitay/aura](https://github.com/osmandkitay/aura) on 2025-08-07
