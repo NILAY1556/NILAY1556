@@ -1,16 +1,16 @@
 # NILAY1556
 
 ## Exploring...
-- **Transformer Limitations and Solutions** (30-07-25)
-  Explores Transformer limitations: quadratic memory complexity addressed by sparse attention and low-rank approximation (FlashAttention); diminishing returns with large context windows via recency biasing (MEGA) and selective attention (LaMDA, CEMA); and limitations in reasoning tasks, pointing towards approaches like Chain-of-Thought (CoT).
+- **Transformer Limitations & Solutions** (30-07-25)
+  Explores Transformer limitations: quadratic memory complexity (addressable via sparse attention, low-rank approximation, FlashAttention), diminishing returns with large contexts (managed by recent data biasing like MEGA, selective attention like LaMDA/CEMA), and reasoning capabilities (statistical correlation vs. symbolic thinking, addressed by CoT).
 
-- **AI Project & Repo Review** (29-07-25)
-  Reviewed Google DeepMind's Opal project and explored key GitHub repositories, including Graphrag-Toolkit and Awesome LLM Apps, to understand current AI applications.
+- **Exploring AI Projects and Tools** (29-07-25)
+  Reviewed Google DeepMind's Opal project and explored significant GitHub repositories, including the Graphrag Toolkit and Awesome LLM Apps, to understand current advancements in AI application development.
   [opal](https://opal.withgoogle.com/)
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
-- **DiffusionLM Architecture Explained** (28-07-25)
-  Explores DiffusionLM, a hyped AI technology, detailing its architecture through two key research papers: LaViDa and MMaDA.
+- **Diffusion Models Explained** (28-07-25)
+  Explores DiffusionLM, a recent AI model, highlighting its architecture through research papers LaViDa and MMaDA, and its increased hype from Google DeepMind.
   [LaViDa](https://arxiv.org/abs/2505.16839)
   [MMaDA](https://arxiv.org/abs/2505.15809)
 
