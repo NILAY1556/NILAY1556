@@ -1,6 +1,12 @@
 # Daily Learning Tracker
 # Format: <DD-MM-YY> content </DD-MM-YY>
 
+<19-08-25>
+RoPE(Rotary Positional Embedding) 
+Diffusion models 
+    - latent space, VAEs , GAN were king - Diffusion is SoTA 
+</19-08-25>
+
 <30-07-25>
 Transformers and it's limitations : 
     - qudratic memory complexity -> can use sparce attention or approximate low-rank approximation , but the at the end of the day on the Flash attention 
