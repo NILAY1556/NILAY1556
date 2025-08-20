@@ -1,18 +1,16 @@
 # NILAY1556
 
 ## Exploring...
-- **Transformer Limitations and Solutions** (30-07-25)
-  Analyzes transformer limitations including quadratic memory complexity, addressed by sparse or approximate attention (Flash Attention), diminishing returns with large context windows, tackled by recency biasing (MEGA) or selective attention (LaMDA, CEMA), and reasoning task challenges, where Chain-of-Thought (CoT) emerges as a solution.
+- **Understanding RoPE and Diffusion Models** (19-08-25)
+  Explores Rotary Positional Embedding (RoPE) and its application in diffusion models. Discusses how diffusion models have become state-of-the-art, surpassing previous techniques like VAEs and GANs in the latent space.
 
-- **Exploring AI & LLM Projects** (29-07-25)
-  Reviewed Google DeepMind's Opal project and explored key GitHub repositories like graphrag-toolkit and awesome-llm-apps, focusing on advancements in AI and large language model applications.
+- **Transformer Limitations & Solutions** (30-07-25)
+  Analysis of Transformer limitations including quadratic memory complexity (addressable via sparse/low-rank attention, Flash Attention), diminishing returns with large contexts (mitigated by recency bias, selective attention like MEGA/LaMDA/CEMA), and reasoning capabilities (requiring Chain-of-Thought for symbolic tasks).
+
+- **Explore AI & LLM Projects** (29-07-25)
+  Reviewed Google DeepMind's Opal and key GitHub repositories for LLM applications, including Graphrag Toolkit and Awesome-LLM-Apps.
   [opal](https://opal.withgoogle.com/)
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
-
-- **DiffusionLM Architecture Explained** (28-07-25)
-  Explored the DiffusionLM architecture and its recent hype, referencing key papers LaViDa and MMaDA for detailed insights into its foundational design.
-  [LaViDa](https://arxiv.org/abs/2505.16839)
-  [MMaDA](https://arxiv.org/abs/2505.15809)
 
 ## Starred Repositories
 - Starred [osmandkitay/aura](https://github.com/osmandkitay/aura) on 2025-08-07
