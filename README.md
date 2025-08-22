@@ -1,18 +1,19 @@
 # NILAY1556
 
 ## Exploring...
-- **Understanding Diffusion and RoPE** (19-08-25)
-  Explore diffusion models, the current state-of-the-art surpassing VAEs and GANs in latent space, and Rotary Positional Embedding (RoPE) for enhanced transformer performance.
+- **Understanding Diffusion Models** (19-08-25)
+  Explore Diffusion Models, which are now state-of-the-art, contrasting with previous leaders like VAEs and GANs. Learn about their latent space and how they've surpassed traditional generative models.
 
-- **Transformer Limitations & Solutions** (30-07-25)
-  Explores transformer limitations including quadratic memory complexity (addressed by sparse attention, low-rank approximation, and FlashAttention) and diminishing returns with large context windows (managed by biasing recent data, weight updates like MEGA, or selective attention like LaMDA/CEMA). Also notes transformers excel at statistical correlation but struggle with reasoning tasks, leading to approaches like Chain-of-Thought (CoT).
+- **Transformer Limitations and Solutions** (30-07-25)
+  Explores Transformer limitations including quadratic memory complexity, solved by techniques like FlashAttention. Addresses diminishing returns with large contexts via recency bias (MEGA) and selective attention (LaMDA, CEMA). Discusses Transformer's statistical correlation strength versus symbolic reasoning, leading to Chain-of-Thought (CoT).
 
-- **Opal, Graphrag, LLM Apps** (29-07-25)
-  Reviewed Google DeepMind's Opal project and explored GitHub repositories for Graphrag Toolkit and Awesome LLM Apps, gaining insights into advanced AI tools and applications.
+- **Exploring AI Projects and Tools** (29-07-25)
+  Reviewed Google DeepMind's Opal project and curated GitHub repositories including Graphrag Toolkit and Awesome LLM Apps, focusing on practical AI applications and resources.
   [opal](https://opal.withgoogle.com/)
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 ## Starred Repositories
+- Starred [Growth-Kinetics/DiffMem](https://github.com/Growth-Kinetics/DiffMem) on 2025-08-21
 - Starred [osmandkitay/aura](https://github.com/osmandkitay/aura) on 2025-08-07
 - Starred [sapientinc/HRM](https://github.com/sapientinc/HRM) on 2025-07-27
 
