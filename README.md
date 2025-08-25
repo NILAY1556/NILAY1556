@@ -2,13 +2,13 @@
 
 ## Exploring...
 - **Understanding RoPE and Diffusion** (19-08-25)
-  Explores Rotary Positional Embedding (RoPE) and the rise of diffusion models, highlighting their advancements over previous generative techniques like VAEs and GANs.
+  Learn about RoPE, a positional embedding technique, and diffusion models, the current state-of-the-art in generative AI, surpassing previous kings like VAEs and GANs in latent space generation.
 
-- **Transformer Limitations & Solutions** (30-07-25)
-  Analyzes Transformer limitations including quadratic memory complexity (addressed by sparse/approximate attention like FlashAttention) and diminishing returns with large context windows (mitigated by recency bias like MEGA or selective attention like LaMDA/CEMA). Also discusses limitations in reasoning tasks compared to statistical correlation, leading to approaches like Chain-of-Thought.
+- **Transformer Limitations and Solutions** (30-07-25)
+  Explores Transformer limitations including quadratic memory complexity (addressed by sparse attention, low-rank approximation, and Flash Attention) and diminishing returns with large context windows (mitigated by recency biasing, weight updates like MEGA, and selective attention like LaMDA/CEMA). It also notes Transformers' strength in statistical correlation over symbolic reasoning, leading to approaches like Chain-of-Thought (CoT).
 
-- **DeepMind's Opal and LLM Toolkit** (29-07-25)
-  Reviewed Google DeepMind's Opal project and explored GitHub repositories including Graphrag-Toolkit and Awesome-LLM-Apps to understand emerging LLM applications.
+- **Explore Google DeepMind's Opal** (29-07-25)
+  Review of Google DeepMind's Opal project, alongside exploration of key GitHub repositories for LLM applications, including Graphrag Toolkit.
   [opal](https://opal.withgoogle.com/)
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
