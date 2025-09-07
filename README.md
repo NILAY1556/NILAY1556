@@ -1,21 +1,17 @@
 # NILAY1556
 
 ## Exploring...
-- **Diffusion Models and RoPE** (19-08-25)
-  Explores diffusion models, highlighting their state-of-the-art performance surpassing VAEs and GANs, and introduces Rotary Positional Embedding (RoPE) as a key component in their architecture.
+- **Understanding Diffusion Models** (19-08-25)
+  This learning content introduces RoPE (Rotary Positional Embedding) and explores diffusion models, which have surpassed VAEs and GANs as the state-of-the-art approach for generative tasks by leveraging latent space concepts.
 
 - **Transformer Limitations and Solutions** (30-07-25)
-  Analysis of Transformer limitations including quadratic memory complexity, diminishing returns with large context windows, and reasoning challenges. Explores solutions like sparse attention, low-rank approximation, Flash Attention, MEGA, LaMDA, CEMA, and Chain-of-Thought (CoT) for improved performance.
+  Explores transformer limitations: quadratic memory complexity addressed by sparse attention, low-rank approximation, and FlashAttention. Discusses diminishing returns with large context windows via biasing recent data (MEGA) or selective attention (LaMDA, CEMA). Highlights limitations in reasoning tasks, where statistical correlation is strong, but symbolic thinking and Chain-of-Thought (CoT) are needed.
 
-- **AI Project & Repo Exploration** (29-07-25)
-  Explored Google DeepMind's Opal project and reviewed key GitHub repositories for LLM applications, including the graphrag-toolkit.
+- **Exploring LLM Projects and Tools** (29-07-25)
+  This content reviews Google DeepMind's Opal project and explores valuable GitHub repositories such as graphrag-toolkit and awesome-llm-apps, offering insights into current LLM development.
   [opal](https://opal.withgoogle.com/)
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 ## Starred Repositories
 - Starred [Growth-Kinetics/DiffMem](https://github.com/Growth-Kinetics/DiffMem) on 2025-08-21
-- Starred [osmandkitay/aura](https://github.com/osmandkitay/aura) on 2025-08-07
-
-## Forked Repositories
-- Forked [osmandkitay/aura](https://github.com/NILAY1556/aura) on 2025-08-07
 
