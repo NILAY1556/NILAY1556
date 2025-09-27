@@ -1,14 +1,14 @@
 # NILAY1556
 
 ## Exploring...
-- **Diffusion Models and RoPE** (19-08-25)
-  This content explores Diffusion Models, which have become state-of-the-art, surpassing VAEs and GANs. It also covers Rotary Positional Embedding (RoPE).
+- **Diffusion Models & RoPE** (19-08-25)
+  Explores Diffusion Models as state-of-the-art in generative AI, surpassing VAEs and GANs, and introduces Rotary Positional Embedding (RoPE) for enhanced positional encoding within these models.
 
 - **Transformer Limitations and Solutions** (30-07-25)
-  This content analyzes Transformer limitations: quadratic memory complexity (addressed by sparse/low-rank attention, Flash Attention), diminishing returns with large context windows (mitigated by recency bias, selective attention like MEGA/LaMDA/CEMA), and challenges in reasoning/symbolic thinking (pointing towards Chain-of-Thought).
+  Explores Transformer limitations including quadratic memory complexity, diminishing returns with large context windows, and reasoning task challenges. Discusses solutions like sparse attention, low-rank approximation, FlashAttention, biasing on recent data (MEGA), selective attention (LaMDA, CEMA), and Chain-of-Thought (CoT) for improved reasoning.
 
-- **Deepmind AI & LLM Tools** (29-07-25)
-  Reviewed Google DeepMind's Opal project and explored key GitHub repositories for LLM applications, including the Graphrag Toolkit.
+- **AI Project Exploration** (29-07-25)
+  Explored Google DeepMind's Opal project and reviewed key GitHub repositories including graphrag-toolkit and awesome-llm-apps to understand advancements in AI applications and tooling.
   [opal](https://opal.withgoogle.com/)
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
