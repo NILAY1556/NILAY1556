@@ -1,20 +1,21 @@
 # NILAY1556
 
 ## Exploring...
-- **RoPE & Diffusion Models** (19-08-25)
-  This content covers Rotary Positional Embedding (RoPE) for language models and the advancements in diffusion models, highlighting their superiority over VAEs and GANs in the latent space and achieving State-of-the-Art (SoTA) performance.
+- **Diffusion Models and RoPE** (19-08-25)
+  Explores diffusion models as the current state-of-the-art, surpassing VAEs and GANs, and introduces Rotary Positional Embedding (RoPE) as a key technology within this domain.
 
-- **Transformer Limitations & Solutions** (30-07-25)
-  Analysis of Transformer limitations including quadratic memory complexity, diminishing returns with large context, and reasoning tasks, with proposed solutions like sparse attention, low-rank approximation, Flash Attention, biasing on recent data (MEGA), selective attention (LaMDA, CEMA), and Chain-of-Thought (CoT) for symbolic reasoning.
+- **Transformer Limitations and Solutions** (30-07-25)
+  Explores Transformer limitations including quadratic memory complexity (addressed by sparse attention, low-rank approximation, and FlashAttention), diminishing returns with large context windows (mitigated by recency biasing, weight updates, and selective attention like MEGA, LaMDA, CEMA), and challenges in reasoning tasks beyond statistical correlations, highlighting the need for approaches like Chain-of-Thought.
 
-- **Exploring AI Projects and Tools** (29-07-25)
-  Reviewed Google DeepMind's Opal project and valuable GitHub repositories including Graphrag Toolkit and Awesome LLM Apps, gaining insights into AI development and applications.
+- **Opal, Graphrag, LLM Apps** (29-07-25)
+  Reviewed Google DeepMind's Opal project. Explored key GitHub repositories including graphrag-toolkit and awesome-llm-apps for insights into large language model applications.
   [opal](https://opal.withgoogle.com/)
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 ## Starred Repositories
-- Starred [karpathy/nanochat](https://github.com/karpathy/nanochat) on 2025-10-14
-- Starred [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) on 2025-10-13
-- Starred [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book) on 2025-10-08
-- Starred [openai/openai-chatkit-starter-app](https://github.com/openai/openai-chatkit-starter-app) on 2025-10-07
+- Starred [alankbi/detecto](https://github.com/alankbi/detecto) on 2025-10-27
+- Starred [google-deepmind/randomized_positional_encodings](https://github.com/google-deepmind/randomized_positional_encodings) on 2025-10-27
+- Starred [BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM) on 2025-10-27
+- Starred [facebookresearch/detectron2](https://github.com/facebookresearch/detectron2) on 2025-10-27
+- Starred [meta-llama/synthetic-data-kit](https://github.com/meta-llama/synthetic-data-kit) on 2025-10-27
 
