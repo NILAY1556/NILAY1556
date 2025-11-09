@@ -2,13 +2,13 @@
 
 ## Exploring...
 - **Diffusion Models and RoPE** (19-08-25)
-  Explores the advancement of diffusion models as state-of-the-art in generative AI, surpassing latent space techniques like VAEs and GANs. It also covers Rotary Positional Embedding (RoPE).
+  Explores diffusion models, a State-of-the-Art (SoTA) approach surpassing VAEs and GANs, and introduces Rotary Positional Embedding (RoPE) as a key component.
 
 - **Transformer Limitations and Solutions** (30-07-25)
-  Analysis of Transformer limitations including quadratic memory complexity, diminishing returns with large context windows, and challenges in reasoning tasks. Discusses solutions like sparse attention, low-rank approximation, Flash Attention, biasing towards recent data (MEGA), selective attention (LaMDA, CEMA), and Chain-of-Thought (CoT) for symbolic reasoning.
+  This content explores limitations of Transformers, including quadratic memory complexity, diminishing returns with large context windows, and challenges with reasoning tasks. Solutions discussed include sparse attention, low-rank approximation, Flash attention, biasing towards recent data (MEGA), selective attention (LaMDA, CEMA), and Chain-of-Thought (CoT) for reasoning.
 
-- **AI Project & Repo Review** (29-07-25)
-  Reviewed Google DeepMind's Opal project and curated key GitHub repositories for LLM applications, including the Graphrag Toolkit.
+- **Exploring AI Projects and Tools** (29-07-25)
+  Reviewed Google DeepMind's Opal project and significant GitHub repositories including GraphRag-Toolkit and Awesome-LLM-Apps, focusing on advancements in AI applications and tools.
   [opal](https://opal.withgoogle.com/)
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
