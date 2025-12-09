@@ -19,6 +19,7 @@ Diffusion models
 - Starred [K-Dense-AI/karpathy](https://github.com/K-Dense-AI/karpathy) on 2025-11-20
 
 ## Forked Repositories
+- Forked [oumi-ai/oumi](https://github.com/NILAY1556/oumi) on 2025-12-08
 - Forked [lfnovo/open-notebook](https://github.com/NILAY1556/open-notebook) on 2025-12-08
 - Forked [rupeshs/fastsdcpu](https://github.com/NILAY1556/fastsdcpu) on 2025-11-10
 
