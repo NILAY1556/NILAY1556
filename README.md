@@ -17,7 +17,6 @@ Diffusion models
 
 ## Starred Repositories
 - Starred [deepreinforce-ai/CUDA-L2](https://github.com/deepreinforce-ai/CUDA-L2) on 2025-12-12
-- Starred [K-Dense-AI/karpathy](https://github.com/K-Dense-AI/karpathy) on 2025-11-20
 
 ## Forked Repositories
 - Forked [oumi-ai/oumi](https://github.com/NILAY1556/oumi) on 2025-12-08
