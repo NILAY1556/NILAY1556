@@ -16,6 +16,7 @@ Diffusion models
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 ## Starred Repositories
+- Starred [0xSojalSec/airllm](https://github.com/0xSojalSec/airllm) on 2025-12-31
 - Starred [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) on 2025-12-29
 - Starred [deepreinforce-ai/CUDA-L2](https://github.com/deepreinforce-ai/CUDA-L2) on 2025-12-12
 
