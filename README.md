@@ -24,5 +24,4 @@ Diffusion models
 
 ## Forked Repositories
 - Forked [steveyegge/beads](https://github.com/NILAY1556/beads) on 2026-01-04
-- Forked [oumi-ai/oumi](https://github.com/NILAY1556/oumi) on 2025-12-08
 
