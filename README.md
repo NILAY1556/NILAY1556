@@ -16,11 +16,11 @@ Diffusion models
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 ## Starred Repositories
+- Starred [BowTiedSwan/buildflow](https://github.com/BowTiedSwan/buildflow) on 2026-01-08
+- Starred [Action-State-Labs/android-action-kernel](https://github.com/Action-State-Labs/android-action-kernel) on 2026-01-08
 - Starred [containers/ramalama](https://github.com/containers/ramalama) on 2026-01-05
 - Starred [steveyegge/beads](https://github.com/steveyegge/beads) on 2026-01-04
 - Starred [steveyegge/gastown](https://github.com/steveyegge/gastown) on 2026-01-04
-- Starred [BrowserCash/teracrawl](https://github.com/BrowserCash/teracrawl) on 2026-01-02
-- Starred [0xSojalSec/airllm](https://github.com/0xSojalSec/airllm) on 2025-12-31
 
 ## Forked Repositories
 - Forked [steveyegge/beads](https://github.com/NILAY1556/beads) on 2026-01-04
