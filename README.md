@@ -16,11 +16,11 @@ Diffusion models
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 ## Starred Repositories
-- Starred [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book) on 2026-01-15
-- Starred [memvid/memvid](https://github.com/memvid/memvid) on 2026-01-11
-- Starred [BowTiedSwan/buildflow](https://github.com/BowTiedSwan/buildflow) on 2026-01-08
-- Starred [Action-State-Labs/android-action-kernel](https://github.com/Action-State-Labs/android-action-kernel) on 2026-01-08
-- Starred [containers/ramalama](https://github.com/containers/ramalama) on 2026-01-05
+- Starred [google-research/tuning_playbook](https://github.com/google-research/tuning_playbook) on 2026-01-18
+- Starred [kiyo-e/pairlane](https://github.com/kiyo-e/pairlane) on 2026-01-18
+- Starred [covibes/zeroshot](https://github.com/covibes/zeroshot) on 2026-01-18
+- Starred [alexzhang13/rlm](https://github.com/alexzhang13/rlm) on 2026-01-18
+- Starred [danielmiessler/Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure) on 2026-01-18
 
 ## Forked Repositories
 - Forked [steveyegge/beads](https://github.com/NILAY1556/beads) on 2026-01-04
