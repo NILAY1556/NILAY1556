@@ -16,11 +16,11 @@ Diffusion models
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 ## Starred Repositories
+- Starred [FranciscoMoretti/chatjs](https://github.com/FranciscoMoretti/chatjs) on 2026-02-04
 - Starred [dair-ai/ML-Papers-Explained](https://github.com/dair-ai/ML-Papers-Explained) on 2026-02-03
 - Starred [Orchestra-Research/AI-research-SKILLs](https://github.com/Orchestra-Research/AI-research-SKILLs) on 2026-01-30
 - Starred [lobehub/lobehub](https://github.com/lobehub/lobehub) on 2026-01-27
 - Starred [memovai/memov](https://github.com/memovai/memov) on 2026-01-21
-- Starred [google-research/tuning_playbook](https://github.com/google-research/tuning_playbook) on 2026-01-18
 
 ## Forked Repositories
 - Forked [Significant-Gravitas/AutoGPT](https://github.com/NILAY1556/AutoGPT) on 2026-01-30
