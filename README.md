@@ -16,11 +16,11 @@ Diffusion models
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 ## Starred Repositories
+- Starred [THUDM/slime](https://github.com/THUDM/slime) on 2026-02-14
 - Starred [GetStream/Vision-Agents](https://github.com/GetStream/Vision-Agents) on 2026-02-12
 - Starred [mitchellh/vouch](https://github.com/mitchellh/vouch) on 2026-02-12
 - Starred [marshallrichards/ClawPhone](https://github.com/marshallrichards/ClawPhone) on 2026-02-07
 - Starred [ksenxx/kiss_ai](https://github.com/ksenxx/kiss_ai) on 2026-02-05
-- Starred [HKUDS/nanobot](https://github.com/HKUDS/nanobot) on 2026-02-05
 
 ## Forked Repositories
 - Forked [openclaw/openclaw](https://github.com/NILAY1556/openclaw) on 2026-02-06
