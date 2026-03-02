@@ -24,5 +24,4 @@ Diffusion models
 
 ## Forked Repositories
 - Forked [openclaw/openclaw](https://github.com/NILAY1556/openclaw) on 2026-02-06
-- Forked [Significant-Gravitas/AutoGPT](https://github.com/NILAY1556/AutoGPT) on 2026-01-30
 
