@@ -22,6 +22,3 @@ Diffusion models
 - Starred [GoogleChromeLabs/webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) on 2026-02-19
 - Starred [nullclaw/nullclaw](https://github.com/nullclaw/nullclaw) on 2026-02-19
 
-## Forked Repositories
-- Forked [openclaw/openclaw](https://github.com/NILAY1556/openclaw) on 2026-02-06
-
