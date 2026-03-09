@@ -16,9 +16,9 @@ Diffusion models
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 ## Starred Repositories
+- Starred [google-deepmind/simply](https://github.com/google-deepmind/simply) on 2026-03-08
 - Starred [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) on 2026-03-05
 - Starred [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU) on 2026-03-02
 - Starred [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB) on 2026-02-25
 - Starred [GoogleChromeLabs/webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) on 2026-02-19
-- Starred [nullclaw/nullclaw](https://github.com/nullclaw/nullclaw) on 2026-02-19
 
