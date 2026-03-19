@@ -16,9 +16,9 @@ Diffusion models
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 ## Starred Repositories
+- Starred [gojue/ecapture](https://github.com/gojue/ecapture) on 2026-03-18
+- Starred [larsderidder/contextio](https://github.com/larsderidder/contextio) on 2026-03-18
 - Starred [nikopueringer/CorridorKey](https://github.com/nikopueringer/CorridorKey) on 2026-03-13
 - Starred [karpathy/autoresearch](https://github.com/karpathy/autoresearch) on 2026-03-13
 - Starred [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) on 2026-03-10
-- Starred [google-deepmind/simply](https://github.com/google-deepmind/simply) on 2026-03-08
-- Starred [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) on 2026-03-05
 
