@@ -20,5 +20,4 @@ Diffusion models
 - Starred [gojue/ecapture](https://github.com/gojue/ecapture) on 2026-03-18
 - Starred [larsderidder/contextio](https://github.com/larsderidder/contextio) on 2026-03-18
 - Starred [nikopueringer/CorridorKey](https://github.com/nikopueringer/CorridorKey) on 2026-03-13
-- Starred [karpathy/autoresearch](https://github.com/karpathy/autoresearch) on 2026-03-13
 
