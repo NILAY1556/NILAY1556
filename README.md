@@ -16,6 +16,7 @@ Diffusion models
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 ## Starred Repositories
+- Starred [KaustubhPatange/polymarket-trade-engine](https://github.com/KaustubhPatange/polymarket-trade-engine) on 2026-04-24
 - Starred [vinitshahdeo/IPL-Swiggy6](https://github.com/vinitshahdeo/IPL-Swiggy6) on 2026-04-22
 - Starred [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec) on 2026-04-22
 - Starred [mni-ml/framework](https://github.com/mni-ml/framework) on 2026-04-17
