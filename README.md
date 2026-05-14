@@ -16,11 +16,11 @@ Diffusion models
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 ## Starred Repositories
+- Starred [amir20/dozzle](https://github.com/amir20/dozzle) on 2026-05-13
 - Starred [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser) on 2026-05-12
 - Starred [huggingface/hf-sandbox](https://github.com/huggingface/hf-sandbox) on 2026-05-11
 - Starred [crynta/terax-ai](https://github.com/crynta/terax-ai) on 2026-05-09
 - Starred [Liquid4All/cookbook](https://github.com/Liquid4All/cookbook) on 2026-05-02
-- Starred [warpdotdev/warp](https://github.com/warpdotdev/warp) on 2026-04-28
 
 ## Forked Repositories
 - Forked [warpdotdev/warp](https://github.com/NILAY1556/warp) on 2026-04-28
