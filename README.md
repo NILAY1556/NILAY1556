@@ -22,6 +22,3 @@ Diffusion models
 - Starred [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) on 2026-05-19
 - Starred [nexu-io/html-anything](https://github.com/nexu-io/html-anything) on 2026-05-15
 
-## Forked Repositories
-- Forked [warpdotdev/warp](https://github.com/NILAY1556/warp) on 2026-04-28
-
