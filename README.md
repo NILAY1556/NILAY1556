@@ -16,9 +16,9 @@ Diffusion models
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 ## Starred Repositories
+- Starred [JINO-ROHIT/llm-inference-techniques](https://github.com/JINO-ROHIT/llm-inference-techniques) on 2026-05-30
 - Starred [Sagar2366/linux_the_final_boss](https://github.com/Sagar2366/linux_the_final_boss) on 2026-05-25
 - Starred [xlite-dev/LeetCUDA](https://github.com/xlite-dev/LeetCUDA) on 2026-05-19
 - Starred [Manavarya09/design-extract](https://github.com/Manavarya09/design-extract) on 2026-05-19
 - Starred [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) on 2026-05-19
-- Starred [nexu-io/html-anything](https://github.com/nexu-io/html-anything) on 2026-05-15
 
