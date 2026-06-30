@@ -20,5 +20,4 @@ Diffusion models
 - Starred [mattpocock/skills](https://github.com/mattpocock/skills) on 2026-06-08
 - Starred [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) on 2026-06-04
 - Starred [cyberpapiii/chipotlai-max](https://github.com/cyberpapiii/chipotlai-max) on 2026-06-03
-- Starred [JINO-ROHIT/llm-inference-techniques](https://github.com/JINO-ROHIT/llm-inference-techniques) on 2026-05-30
 
