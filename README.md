@@ -19,5 +19,4 @@ Diffusion models
 - Starred [topoteretes/cognee](https://github.com/topoteretes/cognee) on 2026-06-23
 - Starred [mattpocock/skills](https://github.com/mattpocock/skills) on 2026-06-08
 - Starred [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) on 2026-06-04
-- Starred [cyberpapiii/chipotlai-max](https://github.com/cyberpapiii/chipotlai-max) on 2026-06-03
 
