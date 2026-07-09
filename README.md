@@ -16,6 +16,6 @@ Diffusion models
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 ## Starred Repositories
+- Starred [vlgiitr/DL_Topics](https://github.com/vlgiitr/DL_Topics) on 2026-07-09
 - Starred [topoteretes/cognee](https://github.com/topoteretes/cognee) on 2026-06-23
-- Starred [mattpocock/skills](https://github.com/mattpocock/skills) on 2026-06-08
 
