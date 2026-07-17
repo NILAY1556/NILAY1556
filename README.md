@@ -16,6 +16,7 @@ Diffusion models
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 ## Starred Repositories
+- Starred [PrismML-Eng/Bonsai-demo](https://github.com/PrismML-Eng/Bonsai-demo) on 2026-07-17
 - Starred [vlgiitr/DL_Topics](https://github.com/vlgiitr/DL_Topics) on 2026-07-09
 - Starred [topoteretes/cognee](https://github.com/topoteretes/cognee) on 2026-06-23
 
