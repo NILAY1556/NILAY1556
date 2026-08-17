@@ -15,6 +15,3 @@ Diffusion models
   [opal](https://opal.withgoogle.com/)
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
-## Starred Repositories
-- Starred [PrismML-Eng/Bonsai-demo](https://github.com/PrismML-Eng/Bonsai-demo) on 2026-07-17
-
