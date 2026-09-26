@@ -15,3 +15,8 @@ Diffusion models
   [opal](https://opal.withgoogle.com/)
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
+## Starred Repositories
+- Starred [JustVugg/colibri](https://github.com/JustVugg/colibri) on 2026-09-25
+- Starred [agentrhq/webcmd](https://github.com/agentrhq/webcmd) on 2026-09-25
+- Starred [veedstudio/open-edit](https://github.com/veedstudio/open-edit) on 2026-09-25
+
