@@ -16,11 +16,11 @@ Diffusion models
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 ## Starred Repositories
+- Starred [crmne/zapfast](https://github.com/crmne/zapfast) on 2026-11-14
 - Starred [h4ckf0r0day/obscura](https://github.com/h4ckf0r0day/obscura) on 2026-11-12
 - Starred [krahets/hello-algo](https://github.com/krahets/hello-algo) on 2026-10-25
 - Starred [kalil0321/reverse-api-engineer](https://github.com/kalil0321/reverse-api-engineer) on 2026-10-20
 - Starred [HazyResearch/ncm](https://github.com/HazyResearch/ncm) on 2026-10-19
-- Starred [elie222/rakazo](https://github.com/elie222/rakazo) on 2026-10-15
 
 ## Forked Repositories
 - Forked [prit-007/ApertureX](https://github.com/NILAY1556/ApertureX) on 2026-10-24
