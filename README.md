@@ -16,14 +16,12 @@ Diffusion models
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 ## Starred Repositories
+- Starred [Dhairya3391/kari](https://github.com/Dhairya3391/kari) on 2026-11-19
 - Starred [mnfst/awesome-free-llm-apis](https://github.com/mnfst/awesome-free-llm-apis) on 2026-11-16
 - Starred [crmne/zapfast](https://github.com/crmne/zapfast) on 2026-11-14
 - Starred [h4ckf0r0day/obscura](https://github.com/h4ckf0r0day/obscura) on 2026-11-12
 - Starred [krahets/hello-algo](https://github.com/krahets/hello-algo) on 2026-10-25
-- Starred [kalil0321/reverse-api-engineer](https://github.com/kalil0321/reverse-api-engineer) on 2026-10-20
 
 ## Forked Repositories
 - Forked [prit-007/ApertureX](https://github.com/NILAY1556/ApertureX) on 2026-10-24
-- Forked [maxrave-dev/core](https://github.com/NILAY1556/Simpmusic-core) on 2026-10-20
-- Forked [maxrave-dev/SimpMusic](https://github.com/NILAY1556/SimpMusic) on 2026-10-20
 
