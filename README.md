@@ -16,11 +16,11 @@ Diffusion models
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 ## Starred Repositories
+- Starred [meta/astryx](https://github.com/meta/astryx) on 2026-11-22
+- Starred [humanitas-labs/sirius](https://github.com/humanitas-labs/sirius) on 2026-11-22
 - Starred [Dhairya3391/kari](https://github.com/Dhairya3391/kari) on 2026-11-19
 - Starred [mnfst/awesome-free-llm-apis](https://github.com/mnfst/awesome-free-llm-apis) on 2026-11-16
 - Starred [crmne/zapfast](https://github.com/crmne/zapfast) on 2026-11-14
-- Starred [h4ckf0r0day/obscura](https://github.com/h4ckf0r0day/obscura) on 2026-11-12
-- Starred [krahets/hello-algo](https://github.com/krahets/hello-algo) on 2026-10-25
 
 ## Forked Repositories
 - Forked [prit-007/ApertureX](https://github.com/NILAY1556/ApertureX) on 2026-10-24
