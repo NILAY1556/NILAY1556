@@ -22,6 +22,3 @@ Diffusion models
 - Starred [mnfst/awesome-free-llm-apis](https://github.com/mnfst/awesome-free-llm-apis) on 2026-11-16
 - Starred [crmne/zapfast](https://github.com/crmne/zapfast) on 2026-11-14
 
-## Forked Repositories
-- Forked [prit-007/ApertureX](https://github.com/NILAY1556/ApertureX) on 2026-10-24
-
