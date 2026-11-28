@@ -16,9 +16,9 @@ Diffusion models
   [graphrag-toolkit](https://github.com/awslabs/graphrag-toolkit)
 
 ## Starred Repositories
+- Starred [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) on 2026-11-27
 - Starred [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) on 2026-11-24
 - Starred [meta/astryx](https://github.com/meta/astryx) on 2026-11-22
 - Starred [humanitas-labs/sirius](https://github.com/humanitas-labs/sirius) on 2026-11-22
 - Starred [Dhairya3391/kari](https://github.com/Dhairya3391/kari) on 2026-11-19
-- Starred [mnfst/awesome-free-llm-apis](https://github.com/mnfst/awesome-free-llm-apis) on 2026-11-16
 
